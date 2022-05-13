@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+}
+
+.useless {
+  background-color: black;
+}
+
+.useless a:active,
+.useless a:link,
+.useless a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: default;
+  font-size: 2rem;
+}
+
+.data-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 10rem;
+}
