@@ -1,6 +1,9 @@
-function Gradiant({ bgcolor, color }) {
+function Gradiant({ bgcolor, color, isGradiant }) {
   const styles = {
-    backgroundColor: bgcolor,
+    background: bgcolor,
+    background: isGradiant
+      ? `linear-gradient(90deg, ${bgcolor} 30%, rgba(255,255,255,1) 60%, ${bgcolor} 90%)`
+      : bgcolor,
     color,
     width: "15rem",
     height: "10rem",

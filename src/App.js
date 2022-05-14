@@ -18,9 +18,24 @@ function App() {
       <Feature2 />
       <Feature3 />
       <div className="data-box">
-        <Gradiant className="gradiant" bgcolor="black" color="white" />
-        <Gradiant className="gradiant" bgcolor="green" color="black" />
-        <Gradiant className="gradiant" bgcolor="pink" color="black" />
+        <Gradiant
+          className="gradiant"
+          bgcolor="black"
+          color="white"
+          isGradiant={false}
+        />
+        <Gradiant
+          className="gradiant"
+          bgcolor="#DCD859"
+          color="black"
+          isGradiant={true}
+        />
+        <Gradiant
+          className="gradiant"
+          bgcolor="pink"
+          color="black"
+          isGradiant={true}
+        />
       </div>
     </div>
   );
